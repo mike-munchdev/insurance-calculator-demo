@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Button, Form } from 'reactstrap';
+import { Container, Form } from 'reactstrap';
 import { Formik } from 'formik';
 import { CollapsibleCard } from './components/CollapsibleCard';
 import './App.css';
@@ -111,7 +111,7 @@ function App() {
         alert('submitting successful form');
       }}
       render={formikProps => {
-        const { isSubmitting, handleSubmit } = formikProps;
+        const { handleSubmit } = formikProps;
 
         return (
           <Form onSubmit={handleSubmit}>
