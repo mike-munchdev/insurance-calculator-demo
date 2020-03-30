@@ -81,10 +81,29 @@
   border-right-color: cadetblue !important;
 }
 
+.bs-tooltip-auto[x-placement^='left'] .arrow::before,
+.bs-tooltip-left .arrow::before {
+  border-left-color: cadetblue !important;
+}
+
 .tooltip {
   max-height: 100px !important;
 }
 
 .form-col {
   vertical-align: bottom;
+}
+
+.analysis-text {
+  height: 80px !important;
+  background-color: #3cbc8d !important;
+  color: white !important;
+}
+
+.calculator-container {
+  max-width: 800px !important;
+}
+
+.card-name {
+  flex: 1;
 }

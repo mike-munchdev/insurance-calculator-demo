@@ -115,7 +115,7 @@ function App() {
 
         return (
           <Form onSubmit={handleSubmit}>
-            <Container>
+            <Container className="calculator-container">
               {cards.map(c => (
                 <CollapsibleCard
                   toggle={() => setOpenId(c.id)}
@@ -126,7 +126,7 @@ function App() {
                   {getControl(c.id, formikProps)}
                 </CollapsibleCard>
               ))}
-              <Row className="d-flex align-items-center justify-content-center">
+              {/* <Row className="d-flex align-items-center justify-content-center">
                 <Button
                   className="form-button mx-2"
                   type="submit"
@@ -141,7 +141,7 @@ function App() {
                 >
                   Cancel
                 </Button>
-              </Row>
+              </Row> */}
             </Container>
           </Form>
         );

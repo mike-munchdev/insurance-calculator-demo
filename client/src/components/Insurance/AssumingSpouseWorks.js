@@ -13,8 +13,7 @@ const AssumingSpouseWorks = props => {
   return (
     <Container>
       <Row>
-        <Col md="2"></Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             prependText="$"
             label="What is your spouse’s annual income?"
@@ -25,7 +24,7 @@ const AssumingSpouseWorks = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             label="How many years does your spouse expect to work?"
             id="spouseExpectedWorkYears"
@@ -35,11 +34,9 @@ const AssumingSpouseWorks = props => {
             placeholder="0"
           />
         </Col>
-        <Col md="2"></Col>
       </Row>
       <Row>
-        <Col md="2"></Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             appendText="%"
             label="Your spouse’s marginal tax rate?"
@@ -55,8 +52,7 @@ const AssumingSpouseWorks = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="4"></Col>
-        <Col md="2"></Col>
+        <Col md="6"></Col>
       </Row>
     </Container>
   );

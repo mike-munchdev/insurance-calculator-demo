@@ -13,8 +13,7 @@ const TotalAnnualIncome = props => {
   return (
     <Container>
       <Row>
-        <Col md="2"></Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             prependText="$"
             label="Total annual income?"
@@ -28,7 +27,7 @@ const TotalAnnualIncome = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             label="How many years should income be provided?"
             id="yearsOfIncome"
@@ -37,11 +36,9 @@ const TotalAnnualIncome = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="2"></Col>
       </Row>
       <Row>
-        <Col md="2"></Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             prependText="$"
             label="What is your current savings and investments (not including retirement funds)?"
@@ -57,7 +54,7 @@ const TotalAnnualIncome = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             prependText="$"
             label="What are your current retirement savings?"
@@ -73,11 +70,9 @@ const TotalAnnualIncome = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="2"></Col>
       </Row>
       <Row>
-        <Col md="2"></Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             prependText="$"
             label="What is the value of the life insurance in force on your life?"
@@ -93,8 +88,7 @@ const TotalAnnualIncome = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="4"></Col>
-        <Col md="2"></Col>
+        <Col md="6"></Col>
       </Row>
     </Container>
   );

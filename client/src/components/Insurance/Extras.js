@@ -11,8 +11,7 @@ const Extra = props => {
   return (
     <Container>
       <Row>
-        <Col md="2"></Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             appendText="%"
             label="Estimated inflation rate"
@@ -23,7 +22,7 @@ const Extra = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             appendText="%"
             label="After-tax net investment yield"
@@ -34,7 +33,6 @@ const Extra = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="2"></Col>
       </Row>
     </Container>
   );

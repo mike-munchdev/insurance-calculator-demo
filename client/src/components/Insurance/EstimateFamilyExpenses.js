@@ -22,8 +22,7 @@ const EstimateFamilyExpenses = props => {
   return (
     <Container>
       <Row>
-        <Col md="2"></Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             prependText="$"
             label="Final expenses"
@@ -41,7 +40,7 @@ const EstimateFamilyExpenses = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             prependText="$"
             label="Outstanding debts (other than your mortgage)"
@@ -52,11 +51,9 @@ const EstimateFamilyExpenses = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="2"></Col>
       </Row>
       <Row>
-        <Col md="2"></Col>
-        <Col md="4">
+        <Col md="6">
           <MDTextField
             prependText="$"
             label="Outstanding mortgage"
@@ -72,12 +69,10 @@ const EstimateFamilyExpenses = props => {
             handleChange={handleChange}
           />
         </Col>
-        <Col md="4"></Col>
-        <Col md="2"></Col>
+        <Col md="6"></Col>
       </Row>
       <Row>
-        <Col md="2"></Col>
-        <Col md="4">
+        <Col md="6">
           <FormGroup>
             <Label for="childrenCollgeFunding">
               How many children require college funding?
@@ -109,8 +104,7 @@ const EstimateFamilyExpenses = props => {
             </InputGroup>
           </FormGroup>
         </Col>
-        <Col md="4"></Col>
-        <Col md="2"></Col>
+        <Col md="6"></Col>
       </Row>
     </Container>
   );

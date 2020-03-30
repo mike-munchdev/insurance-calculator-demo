@@ -11,7 +11,7 @@ const CollapsibleCard = ({ id, toggle, name, children, isOpen }) => (
       className={isOpen && `selected`}
     >
       <div className="d-flex justify-content-between">
-        <div>{name}</div>
+        <div className="card-name">{name}</div>
         <div className={`indicator ${isOpen && 'selected'}`}>{id}</div>
       </div>
     </CardHeader>
